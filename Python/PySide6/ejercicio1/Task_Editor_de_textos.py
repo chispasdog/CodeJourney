@@ -12,7 +12,7 @@ class VentanaPrincipal(QMainWindow):
     def inicial(self):
         self.setWindowTitle('Editor de texto plano')
         #ruta donde está el archivo vacio
-        self.ruta = "C:\\Users\\pablo\\Desktop\\github\\untitled\\python\\practicasinterfaces\\ejer\\archivo.txt"
+        self.ruta = "C:\\Users\\usersw\\Desktop\\CodeJourney\\Python\\PySide6\\ejercicio1\\archivo.txt"
         #recoger texto del editor
         self.texto = QTextEdit(self)
         self.setCentralWidget(self.texto)
