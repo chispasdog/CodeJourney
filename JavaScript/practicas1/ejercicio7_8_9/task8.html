@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fecha y Hora Actual</title>
+    <script>
+        function mostrarFechaHora() {
+            var fecha = new Date();
+
+            var diaMes = fecha.getDate(); 
+            var diaSemana = fecha.getDay(); 
+            var mes = fecha.getMonth(); 
+            var ano = fecha.getFullYear(); 
+            var hora = fecha.getHours(); 
+            var minutos = fecha.getMinutes(); 
+            var segundos = fecha.getSeconds(); 
+
+            var diasSemanaTexto = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
+
+            document.write("Dia del mes: " + diaMes + "<br>");
+            document.write("Dia de la semana: " + diasSemanaTexto[diaSemana] + "<br>");
+            document.write("Mes: " + mes + " (Enero = 0, Diciembre = 11)" + "<br>");
+            document.write("Ano: " + ano + "<br>");
+            document.write("Hora: " + hora + "<br>");
+            document.write("Minutos: " + minutos + "<br>");
+            document.write("Segundos: " + segundos);
+        }
+    </script>
+</head>
+<body onload="mostrarFechaHora()">
+
+</body>
+</html>

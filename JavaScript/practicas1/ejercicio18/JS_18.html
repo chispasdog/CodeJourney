@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    var boton = document.getElementById('Boton');
+
+    function cambiarColorFondo() {
+      var campoTexto = document.forms['formulario']['caja_texto'];
+      campoTexto.style.backgroundColor = '#f88067';
+    }
+
+    
+    boton.addEventListener('click', cambiarColorFondo);
+  });
+</script>
+</head>
+<body>
+<form name="formulario">           
+   <input id="Boton" name="boton" type="button" value="boton">           
+   <input name="caja_texto" type="text">            
+</form> 
+
+</body>
+</html>

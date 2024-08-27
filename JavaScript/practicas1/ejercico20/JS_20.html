@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de Click en Párrafo</title>
+    <script>
+        function inicializarEventos() {
+            var parrafos = document.getElementsByTagName("p");
+            if (parrafos.length > 0) {
+                parrafos[0].addEventListener("click", function() {
+                    alert("Has hecho clic en el Párrafo 1");
+                });
+            }
+        }
+    </script>
+</head>
+<body onload="inicializarEventos()">
+
+<p>Párrafo 1: Haz clic sobre mí.</p>
+<p>Párrafo 2: Yo no responderé a clics.</p>
+
+</body>
+</html>

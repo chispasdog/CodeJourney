@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 12 - Información de la pantalla</title>
+
+
+
+    <script>
+        function mostrarinfo(){
+            let alturainfo = "Altura total:"+ screen.height + "<br>"+ "<br>";
+            let alturadisponible= "altura disponible de la pantalla es:" + screen.availHeight + "<br>"+ "<br>";
+            let anchoinfo = "ancho total de la pantalla: " + screen.width + "<br>"+ "<br>";
+            let anchodisponible = "ancho disponible de la pantalla es: " + screen.availWidth + "<br>"+ "<br>";
+            document.write(alturainfo+ alturadisponible+anchoinfo+anchodisponible);
+
+
+
+            
+        }
+        window.onload = mostrarinfo();
+        
+
+
+ 
+
+
+
+    </script>
+
+
+
+</head>
+
+
+<body>
+    
+
+<div id="resultado"></div>
+
+
+
+
+</body>
+</html>
