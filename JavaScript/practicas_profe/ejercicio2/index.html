@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Fuente limpia y moderna */
+            margin: 20px;
+            background-color: #f0f0f0; /* Color de fondo suave */
+        }
+        #the_ul {
+            padding-left: 0; /* Elimina el padding predeterminado */
+            list-style-type: none; /* Elimina los marcadores de lista */
+        }
+        #the_ul li {
+            font-size: 24px; /* Tamaño de fuente más grande para mejor legibilidad */
+            margin-bottom: 10px; /* Espacio entre elementos de la lista */
+            border: 2px solid #ccc; /* Borde de la caja */
+            background-color: #ffffff; /* Color de fondo para cada caja */
+            padding: 10px 20px; /* Padding dentro de cada caja */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Sombra suave para 3D efecto */
+            display: inline-block; /* Hacer que las cajas sean en línea */
+            width: 50px; /* Ancho fijo para alinear los números */
+            text-align: center; /* Alinear el texto al centro */
+        }
+        #the_ul li::before {
+            content: ''; /* Eliminar el marcador personalizado */
+        }
+    </style>
+    
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Números</title>
+</head>
+<body>
+    <center>
+    <ul id="the_ul"></ul>
+</center>
+</body>
+<script src="script.js"></script>
+</html>

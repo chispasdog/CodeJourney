@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de Color</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        #div {
+            width: 300px; /* Tamaño más adecuado para la demostración */
+            height: 300px; /* Tamaño más adecuado para la demostración */
+            background-color: rgb(255, 6, 6); /* Color inicial */
+            transition: background-color 0.5s; /* Transición suave del color */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button type="button" onclick="printdiv()">Cambiar Color</button>
+        <div id="div"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

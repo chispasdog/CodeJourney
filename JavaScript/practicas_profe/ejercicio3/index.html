@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 
+     
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: 'Arial', sans-serif; /* Fuente limpia y moderna */
+        background-color: #f4f4f4; /* Color de fondo suave */
+        padding: 20px; /* Espaciado general para la página */
+    }
+    input[type="text"], button {
+        padding: 10px; /* Relleno para hacerlos más grandes y fáciles de usar */
+        margin: 5px 0; /* Margen para separarlos del texto y otros elementos */
+        font-size: 16px; /* Tamaño de fuente más grande para mejor legibilidad */
+        border-radius: 5px; /* Bordes redondeados */
+        border: 1px solid #ccc; /* Borde sutil */
+    }
+    button {
+        background-color: #007BFF; /* Color de fondo azul para el botón */
+        color: white; /* Color de texto blanco */
+        cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+    }
+    button:hover {
+        background-color: #0056b3; /* Color más oscuro en hover */
+    }
+    table {
+        width: 100%; /* La tabla usa todo el ancho disponible */
+        border-collapse: collapse; /* Colapsar bordes para un solo borde entre celdas */
+        margin-top: 20px; /* Margen superior para separar de los controles de entrada */
+    }
+    th, td {
+        text-align: left; /* Alineación del texto a la izquierda */
+        padding: 12px; /* Relleno dentro de cada celda */
+        border-bottom: 1px solid #ccc; /* Línea separadora sutil entre filas */
+    }
+    th {
+        background-color: #4CAF50; /* Fondo verde para los encabezados */
+        color: white; /* Texto blanco para contraste */
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Fondo alternativo para filas pares */
+    }
+</style>
+
+
+<body>
+    <div>
+        <label>pon la temperatura a convertir</label> <br>
+        <input id="input_nombre" type="text"> <br><br>
+         
+        <button id="boton" type="button" onclick="enviarform()">Enviar</button> <br>
+    </div>
+    <div>
+        <br>
+        <table border="1" id="tabla">
+            <tr>
+              <td>Celsius</td>
+              <td>Fahrenheit</td>
+            </tr>
+            
+             
+    </div>
+   
+
+</body>
+<script src="funcion3.js"></script>
+
+</html>
