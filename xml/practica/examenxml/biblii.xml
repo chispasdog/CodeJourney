@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redBibliotecas>
+    <biblioteca>
+        <nombre>Biblioteca del Parque</nombre>
+        <direccion>Avenida de los Árboles, 456</direccion>
+        <salas>
+            <sala>
+                <nombre>Sala Verde</nombre>
+                <capacidad>30</capacidad>
+                <estantes>
+                    <estante>
+                        <numeroIdentificativo>101</numeroIdentificativo>
+                        <tema>Literatura Clásica</tema>
+                        <libros>
+                            <libro>
+                                <titulo>Don Quijote de la Mancha</titulo>
+                                <fechaPublicacion>
+                                    <dia>16</dia>
+                                    <mes>01</mes>
+                                    <anio>1605</anio>
+                                </fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Miguel de Cervantes</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1605</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                    <autor>
+                                        <nombre>Escritor Imaginario</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1605</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>Romeo y Julieta</titulo>
+                                <fechaPublicacion>
+                                    <dia>16</dia>
+                                    <mes>21</mes>
+                                    <anio>605</anio>
+                                </fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>William Shakespeare</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>605</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                    <autor>
+                                        <nombre>Hamid trmar dil</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>605</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                    <estante>
+                        <numeroIdentificativo>102</numeroIdentificativo>
+                        <tema>Filosofía</tema>
+                        <libros>
+                            <libro>
+                                <titulo>El Mundo de Mi Padre</titulo>
+                                <fechaPublicacion>
+                                    <dia>16</dia>
+                                    <mes>21</mes>
+                                    <anio>1991</anio>
+                                </fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Yo Nidem</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                    <autor>
+                                        <nombre>asdfasd</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>La República</titulo>
+                                <fechaPublicacion>380 a.C.</fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>es dasf sfesdaf</nombre>
+                                        <fechanacimiento>
+                                            <dia>c</dia>
+                                            <mes>a</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                </estantes>
+            </sala>
+            <sala>
+                <nombre>Sala Azul</nombre>
+                <capacidad>45</capacidad>
+                <estantes>
+                    <estante>
+                        <numeroIdentificativo>103</numeroIdentificativo>
+                        <tema>Tecnología</tema>
+                        <libros>
+                            <libro>
+                                <titulo>El futuro digital</titulo>
+                                <fechaPublicacion>2014-07-01</fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Erik Qualman</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                    <autor>
+                                        <nombre>Tech Writer</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>Inteligencia Artificial</titulo>
+                                <fechaPublicacion>2018-09-12</fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Max Tegmark</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                </estantes>
+            </sala>
+        </salas>
+    </biblioteca>
+    <biblioteca>
+        <nombre>Biblioteca de la Estación</nombre>
+        <direccion>Calle del Ferrocarril, 789</direccion>
+        <salas>
+            <sala>
+                <nombre>Sala del Conocimiento</nombre>
+                <capacidad>50</capacidad>
+                <estantes>
+                    <estante>
+                        <numeroIdentificativo>201</numeroIdentificativo>
+                        <tema>Historia Universal</tema>
+                        <libros>
+                            <libro>
+                                <titulo>La Segunda Guerra Mundial</titulo>
+                                <fechaPublicacion>1995-06-06</fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>John Keegan</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                    <autor>
+                                        <nombre>Historiador Anónimo</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>Historia de la Humanidad</titulo>
+                                <fechaPublicacion>2001-04-20</fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Juan Villoro</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                    <estante>
+                        <numeroIdentificativo>202</numeroIdentificativo>
+                        <tema>Biografías</tema>
+                        <libros>
+                            <libro>
+                                <titulo>Steve Jobs</titulo>
+                                <fechaPublicacion>2011-10-24</fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Walter Isaacson</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                            <libro>
+                                <titulo>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</titulo>
+                                <fechaPublicacion>2015-05-19</fechaPublicacion>
+                                <autores>
+                                    <autor>
+                                        <nombre>Ashlee Vance</nombre>
+                                        <fechanacimiento>
+                                            <dia>16</dia>
+                                            <mes>01</mes>
+                                            <anio>1953</anio>
+                                        </fechanacimiento>
+                                    </autor>
+                                </autores>
+                            </libro>
+                        </libros>
+                    </estante>
+                </estantes>
+            </sala>
+        </salas>
+    </biblioteca>
+</redBibliotecas>

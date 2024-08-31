@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HistoriaInformatica>
+    <HechoHistorico>
+        <Ano>3500 A.C.</Ano>
+        <Mes>-</Mes>
+        <Dia>-</Dia>
+        <Evento>Ábaco</Evento>
+        <Autor>-</Autor>
+        <Descripcion>Es el dispositivo más antiguo utilizado para realizar operaciones aritméticas.</Descripcion>
+    </HechoHistorico>
+    <HechoHistorico>
+        <Ano>1646</Ano>
+        <Mes>Marzo</Mes>
+        <Dia>8</Dia>
+        <Evento>Calculadora universal</Evento>
+        <Autor>Leibniz</Autor>
+        <Descripcion>Máquina que suma, resta, multiplica, divide y hace raíces cuadradas.</Descripcion>
+    </HechoHistorico>
+    <HechoHistorico>
+        <Ano>1792</Ano>
+        <Mes>Marzo</Mes>
+        <Dia>14</Dia>
+        <Evento>Máquina analítica</Evento>
+        <Autor>Charles Babbage y Ada Lovelace</Autor>
+        <Descripcion>Máquina que resuelve funciones y obtenía tablas.</Descripcion>
+    </HechoHistorico>
+    <HechoHistorico>
+        <Ano>1852</Ano>
+        <Mes>Abril</Mes>
+        <Dia>12</Dia>
+        <Evento>Varias máquinas</Evento>
+        <Autor>Torres Quevedo</Autor>
+        <Descripcion>Construyó una máquina para jugar al ajedrez y una calculadora.</Descripcion>
+    </HechoHistorico>
+    <HechoHistorico>
+        <Ano>1936</Ano>
+        <Mes>Septiembre</Mes>
+        <Dia>15</Dia>
+        <Evento>Máquina de Turing</Evento>
+        <Autor>Alan Turing</Autor>
+        <Descripcion>Máquina capaz de resolver todo tipo de problemas con la solución algorítmica. Con Turing se inició la teoría matemática de la computación.</Descripcion>
+    </HechoHistorico>
+</HistoriaInformatica>

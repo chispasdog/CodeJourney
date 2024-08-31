@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:lit="http://www.literatura.com" xmlns:act="http://www.actividades.com">
+    <lit:libro>
+        <lit:ID>001</lit:ID>
+        <lit:nombre>Don Quijote de la Mancha</lit:nombre>
+        <lit:descripcion>Clásico de la literatura española escrito por Miguel de Cervantes.</lit:descripcion>
+    </lit:libro>
+    <lit:libro>
+        <lit:ID>002</lit:ID>
+        <lit:nombre>1984</lit:nombre>
+        <lit:descripcion>Novela distópica de George Orwell que explora la represión en un estado totalitario.</lit:descripcion>
+    </lit:libro>
+    <lit:libro>
+        <lit:ID>003</lit:ID>
+        <lit:nombre>El Principito</lit:nombre>
+        <lit:descripcion>Una fábula filosófica y el libro francés más vendido del mundo, escrito por Antoine de Saint-Exupéry.</lit:descripcion>
+    </lit:libro>
+
+    <act:evento>
+        <act:ID>E01</act:ID>
+        <act:nombre>Taller de escritura creativa</act:nombre>
+        <act:descripcion>Sesión interactiva para aprender y practicar técnicas de escritura creativa.</act:descripcion>
+    </act:evento>
+    <act:evento>
+        <act:ID>E02</act:ID>
+        <act:nombre>Charla sobre historia del arte</act:nombre>
+        <act:descripcion>Conferencia sobre las diversas épocas artísticas y su impacto cultural.</act:descripcion>
+    </act:evento>
+    <act:evento>
+        <act:ID>E03</act:ID>
+        <act:nombre>Cine al aire libre</act:nombre>
+        <act:descripcion>Proyecciones de películas clásicas en un ambiente al aire libre.</act:descripcion>
+    </act:evento>
+</biblioteca>

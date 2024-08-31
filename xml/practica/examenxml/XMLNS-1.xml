@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE asistentes>
+<personas xmlns:profesor="www.loclahost/profesor" xmlns:alumno="www.loclahost/alumno">
+    <asistentes>
+       <profesor:nombre> Juan  </profesor:nombre>
+       <alumno:nombre> Antonio </alumno:nombre>
+    </asistentes>
+</personas>
