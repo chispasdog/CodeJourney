@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lm5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/" >
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+</head>
+ 
+<body>
+    <h1>La tienda amiga formulario de Alta</h1>
+    <form action="" method="post">
+      <fieldset>
+        <legend>datos personales</legend>
+        <label for="nif">nif</label>
+        <input class="entrada" type="text" id="nif" name="nif" required="requiered"/>
+
+        <label for="nombre"> nombre</label>
+        <input class="entrada" type="text" id="nombre" name="nombre" placeholder="Inctroduce tu nombre" required="required"/>
+
+        <label for="direccion">direciion</label>
+        <input class="entrada" type="text" id="direccion" name="direccion" placeholder="mete tu direccion"/>
+        
+        <label for="fecha">fecha nacimiento</label>
+        <input class="entrada" type="date" id="cumple" name="cumple"/>
+
+        <label for="telefono">numero de telefono</label>
+        <input class="entrada" type="tel" id="telefono" name="telefono"/>  
+
+
+        <label for="Localidad"> Localidad</label>
+        <input class="entrada" type="text" id="Localidad" name="Localidad" placeholder="Inctroduce tu Localidad" required="required"/>
+
+        <label for="Provincia"> Provincia</label>
+        <input class="entrada" type="text" id="Provincia" name="Provincia" placeholder="Inctroduce tu Provincia" required="required"/>
+
+        <label for="CP">CP</label>
+        <input class="entrada" type="number" id="CP" name="CP"/>  
+
+
+        <label for="mail">mail</label>
+        <input class="entrada" type="email" id="mail" name="mail"/>
+
+        <label for="pasword">contraseña</label>
+        <input class="entrada" type="password" id="pasword" name="pasword"/>
+
+        <label for="pasword">contraseña</label>
+        <input class="entrada" type="password" id="pasword2" name="pasword" />
+
+
+        
+    </fieldset> 
+       
+    
+    
+    
+    
+    <fieldset>
+        <label for="idioma">que idioma quieres?</label>
+        <select>
+            <option value="español"> español</option>
+            <option value="ingles">ingles</option>
+            <option value="indiferente">indiferente</option>
+        </select>
+    
+
+        <label for="tipomusica">tipo musica?</label>
+         
+        <input class="entrada" type="radio" id="pop" name="encuesta" checked/><label for="pop">pop</label>
+        <input class="entrada" type="radio" id="rock" name="encuesta2"/><label for="rock">rock</label>
+        <input class="entrada" type="radio" id="flok" name="encuesta3"/><label for="flok">flok</label>
+        <input class="entrada" type="radio" id="clasic" name="encuesta4"/><label for="clasic">clasic</label>
+        <label for="otrasmusi"> otros estilos </label>
+        <input class="entrada" type="text" id="otrasmusi" name="otrasmusi" placeholder="otra musica" />
+    </fieldset>
+    
+    
+
+
+
+
+
+
+
+    <fieldset>
+
+    
+    </fieldset>
+          
+        <input class="entrada" type="submit" id="enviar" value="validar"/>
+        <input class="entrada" type="reset" id="borrar" value="Borrar todo"/>
+        <input class="entrada" type="range" id="rango" value="rango"/>
+        <input class="entrada" type="color" id="colores" value="colores"/>  <br>
+        
+        <input class="entrada" type="checkbox" id="lopd" name="lopd" checked/>
+        <label for="lopd">Acepto terminos...</label>
+        <h4>¿Estas matriculado?</h4>
+        <input class="entrada" type="radio" id="si" name="encuesta" checked/><label for="si">Sí</label>
+        <input class="entrada" type="radio" id="no" name="encuesta"/><label for="no">No</label>
+        <h4>¿te has suscrito?</h4>
+        <input class="entrada" type="radio" id="p2si" name="suscrito" checked/><label for="si1">Sí</label>
+        <input class="entrada" type="radio" id="p2no" name="suscrito"/><label for="no1">No</label>
+        <h5>Opinión</h5>
+        <label for="comentario">Introduce comentario:</label>
+        <textarea id="comentario" name="comentario"></textarea>
+        <input class="botones" type="submit" id="enviar" value="Validar"/>
+        <input class="botones" type="reset" id="borrar" value="borrar datos"/>
+    
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

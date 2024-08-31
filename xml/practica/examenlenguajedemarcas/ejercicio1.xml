@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ejercicio2>
+<libreria xmlns:libro="www.loclahost/libro" xmlns:escritor="www.loclahost/escritor">
+    <libro:dato>
+      <libro:ID>1</libro:ID>
+      <libro:nombre>El senor de  Anillos</libro:nombre>
+      <libro:descripcion>Unanobela</libro:descripcion>
+    </libro:dato>
+
+
+    <libro:dato>
+      <libro:ID>2</libro:ID>
+      <libro:nombre>1124</libro:nombre>
+      <libro:descripcion>nvela</libro:descripcion>
+    </libro:dato>
+
+
+    <libro:dato>
+      <libro:ID>3</libro:ID>
+      <libro:nombre>stawrwar</libro:nombre>
+      <libro:descripcion>Obra maestra</libro:descripcion>
+    </libro:dato>
+
+
+    <escritor:dato>
+      <escritor:ID>1</escritor:ID>
+      <escritor:nombre>Hamid</escritor:nombre>
+      <escritor:descripcion>fantasía y poco</escritor:descripcion>
+    </escritor:dato>
+
+
+    <escritor:dato>
+      <escritor:ID>2</escritor:ID>
+      <escritor:nombre>jorge</escritor:nombre>
+      <escritor:descripcion>Escritor alto</escritor:descripcion>
+    </escritor:dato>
+
+
+    <escritor:dato>
+      <escritor:ID>3</escritor:ID>
+      <escritor:nombre>Gabriel</escritor:nombre>
+      <escritor:descripcion>Escritor bajo</escritor:descripcion>
+    </escritor:dato>
+  </libreria>
+  

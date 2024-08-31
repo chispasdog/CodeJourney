@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 4 - Formularios y marcos</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: auto;
+        }
+
+        #container {
+            display: flex;
+            height: 100%;
+        }
+
+        #frameAzul {
+            background-color: blue;
+            flex: 1;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #frameAzul a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #frameNegroContainer {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #frameNegro {
+            background-color: black;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #frameNegro p {
+            display: inline;
+            margin: 0;
+            padding: 0;
+            font-size: 2em;
+        }
+
+        #frameNegro .b {
+            color: orange;
+            font-size: 4em;
+        }
+
+        #frameNegro .o {
+            color: orange;
+        }
+
+        #frameNegro .li {
+            color: yellow;
+        }
+
+        #frameNegro .via {
+            color: green;
+        }
+
+        #emptySpace {
+            flex: 3;
+            position: relative;  
+            
+        }
+
+       
+        #emptySpace .header {
+            width: 100%;
+            text-align: left;
+            border-bottom: 2px solid black; 
+            color: black;
+            padding: 10px 0;  
+            position: absolute;  
+            top: 0;
+            left: 0;
+            background-color: white;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: auto; 
+        }
+        
+        #emptySpace {
+            flex: 3;
+            position: relative;  
+            overflow: auto;
+            padding-top: 40px;   
+        }
+        form {
+            padding: 20px;    
+            margin: 20px;    
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="frameAzul">
+            <a href="contacto.html" target="_blank">¿Dónde estamos?</a>
+        </div>
+        <div id="frameNegroContainer">
+            <div id="frameNegro">
+                <p class="b">B</p>
+                <p class="o">o</p>
+                <p class="li">li</p>
+                <p class="via">via</p>
+            </div>
+            <div id="emptySpace">
+                <div class="header">texto</div>  
+                
+                
+                <form action="#" method="post">  
+                    <label for="nombre">Nombre completo*</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                    
+                    <br><br><label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="telefono">Teléfono*</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="## #### #####" required>
+                    <br><br>
+                    <label for="asunto">Asunto del mensaje*</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="consulta">Consulta</option>
+                        
+                    </select>
+                    <br><br>
+                    <label for="mensaje">Mensaje*</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+        
+                    <input type="submit" value="Enviar">
+                </form>
+               
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

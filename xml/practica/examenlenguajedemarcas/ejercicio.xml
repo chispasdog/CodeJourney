@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE deus>
+<Sucursal1>
+    <Nombre>secor21</Nombre>
+    <Ubicacion>antartida</Ubicacion>
+    <Departamentos>
+        <Departamento>
+            <Nombre>departamento de acienda</Nombre>
+            <NumeroEmpleados>2</NumeroEmpleados>
+            <Empleados>
+                <Empleado>
+
+                    <Nombre>hamid</Nombre>
+                    <Edad>21</Edad>
+                    <Posicion>derecho</Posicion>
+                    <Roles>
+                        <Rol>
+                            <Nombre>roleo</Nombre>
+                            <NivelResponsabilidad>2</NivelResponsabilidad>
+                            <Proyectos>
+                                <Proyecto>
+                                    <Nombre>andres proyect</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                <Proyecto>
+                                    <Nombre>noriega</Nombre>
+                                    <FechaEntrega>
+                                        <dia>02</dia>
+                                        <mes>1</mes>
+                                        <ano>1113</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                
+                            </Proyectos>
+                        </Rol>
+                        <Rol>
+                            <Nombre>limpiador</Nombre>
+                            <NivelResponsabilidad>1</NivelResponsabilidad>
+                            <Proyectos>
+                                <Proyecto>
+                                    <Nombre>salinas</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                <Proyecto>
+                                    <Nombre>juan antonio</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2999</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                
+                            </Proyectos>
+                        </Rol>
+                    </Roles>
+                </Empleado>
+                <Empleado>
+
+                    <Nombre>sergio</Nombre>
+                    <Edad>23</Edad>
+                    <Posicion>en una buena</Posicion>
+                    <Roles>
+                        <Rol>
+                            <Nombre>celador</Nombre>
+                            <NivelResponsabilidad>4</NivelResponsabilidad>
+                            <Proyectos>
+                                <Proyecto>
+                                    <Nombre>junacho</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>1999</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                <Proyecto>
+                                    <Nombre>proyecto bomba</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2003</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                
+                            </Proyectos>
+                        </Rol>
+                        <Rol>
+                            <Nombre>dictador</Nombre>
+                            <NivelResponsabilidad>2</NivelResponsabilidad>
+                            <Proyectos>
+                                <Proyecto>
+                                    <Nombre>ludo</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                <Proyecto>
+                                    <Nombre>cosino</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                
+                            </Proyectos>
+                        </Rol>
+                        
+                    </Roles>
+                </Empleado>
+                
+            </Empleados>
+        </Departamento>
+        <Departamento>
+            <Nombre>departamento de la rula </Nombre>
+            <NumeroEmpleados>4</NumeroEmpleados>
+            <Empleados>
+                <Empleado>
+
+                    <Nombre>adrian</Nombre>
+                    <Edad>90</Edad>
+                    <Posicion>jubilao voluntarios</Posicion>
+                    <Roles>
+                        <Rol>
+                            <Nombre>enganchao</Nombre>
+                            <NivelResponsabilidad>3</NivelResponsabilidad>
+                            <Proyectos>
+                                <Proyecto>
+                                    <Nombre>lewy</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                <Proyecto>
+                                    <Nombre>ganar</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>1200</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                
+                            </Proyectos>
+                        </Rol>
+                        <Rol>
+                            <Nombre>sfdgs</Nombre>
+                            <NivelResponsabilidad>1</NivelResponsabilidad>
+                            <Proyectos>
+                                <Proyecto>
+                                    <Nombre>proyect</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                <Proyecto>
+                                    <Nombre>lsoe</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                
+                            </Proyectos>
+                        </Rol>
+                        
+                    </Roles>
+                </Empleado>
+                <Empleado>
+
+                    <Nombre>fabio</Nombre>
+                    <Edad>60</Edad>
+                    <Posicion>empleado</Posicion>
+                    <Roles>
+                        <Rol>
+                            <Nombre>aficina</Nombre>
+                            <NivelResponsabilidad>4</NivelResponsabilidad>
+                            <Proyectos>
+                                <Proyecto>
+                                    <Nombre>taptap</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                <Proyecto>
+                                    <Nombre>lewy</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                
+                            </Proyectos>
+                        </Rol>
+                        <Rol>
+                            <Nombre>hamid</Nombre>
+                            <NivelResponsabilidad>3</NivelResponsabilidad>
+                            <Proyectos>
+                                <Proyecto>
+                                    <Nombre>abram</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                <Proyecto>
+                                    <Nombre>deus</Nombre>
+                                    <FechaEntrega>
+                                        <dia>53</dia>
+                                        <mes>1</mes>
+                                        <ano>2313</ano>
+                                    </FechaEntrega>
+                                </Proyecto>
+                                
+                            </Proyectos>
+                        </Rol>
+                        
+                    </Roles>
+                </Empleado>
+                
+
+            </Empleados>
+        </Departamento>
+    </Departamentos>
+</Sucursal1>
