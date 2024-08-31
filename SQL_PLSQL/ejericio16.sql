@@ -1,0 +1,8 @@
+
+
+-- 3. Crear tabla EJEMPLO3
+CREATE TABLE EJEMPLO3 (
+    dni VARCHAR2(9) PRIMARY KEY,
+    nombre VARCHAR2(50) DEFAULT 'No definido',
+    USUARIO VARCHAR2(100)
+);

@@ -1,0 +1,4 @@
+
+
+-- 16. Añadir restricción de clave ajena en EMPLE
+ALTER TABLE EMPLE ADD CONSTRAINT dept_no_fk FOREIGN KEY (DEPT_NO) REFERENCES DEPART (DEPT_NO);

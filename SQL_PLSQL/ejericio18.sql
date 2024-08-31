@@ -1,0 +1,4 @@
+
+
+-- 5. Borrar tabla PROVINCIAS
+DROP TABLE PROVINCIAS;
